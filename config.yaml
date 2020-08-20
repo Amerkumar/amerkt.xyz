@@ -1,0 +1,66 @@
+baseURL: https://amerkt.xyz
+languageCode: en-us
+defaultContentLanguage: en
+title: AmerKT | Personal Blog
+theme: cupper-hugo-theme
+enableGitInfo: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 99
+
+params:
+  description: __Entrepreneur | Mobile Developer | GIK Alumnus | Computer Engineer | Explorer | Finding MySelf__
+  homeMetaContent: Amer Kumar Tanwani Personal Blog | Entrepreneur | Mobile Developer | GIK Alumnus | Computer Engineer | Explorer | Finding MySelf
+  footer: Made with [Hugo](https://gohugo.io/) & [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
+  dateFormat: Jan 2, 2006
+  katex: true
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
