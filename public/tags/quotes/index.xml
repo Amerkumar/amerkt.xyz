@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on AmerKT | Personal Blog</title>
-    <link>https://amerkt.xyz/</link>
-    <description>Recent content in Home on AmerKT | Personal Blog</description>
+    <title>quotes on AmerKT | Personal Blog</title>
+    <link>https://amerkt.xyz/tags/quotes/</link>
+    <description>Recent content in quotes on AmerKT | Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jan 2020 22:20:35 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Dec 2018 00:29:41 -0600</lastBuildDate>
     
-	<atom:link href="https://amerkt.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amerkt.xyz/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://amerkt.xyz/about/</link>
-      <pubDate>Sun, 26 Jan 2020 22:48:46 +0500</pubDate>
-      
-      <guid>https://amerkt.xyz/about/</guid>
-      <description>Coming Soon.</description>
-    </item>
     
     <item>
       <title>Quotes by Carl Jung</title>
