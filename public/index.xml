@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>How to create a blog using hugo</title>
+      <link>https://amerkt.xyz/create-a-blog-using-hugo/</link>
+      <pubDate>Sat, 22 Aug 2020 01:49:53 +0500</pubDate>
+      
+      <guid>https://amerkt.xyz/create-a-blog-using-hugo/</guid>
+      <description>I have recently created my first site using hugo, so I thought the first post should be the process of creating a site using hugo.
+Step 1 - Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Instructions here will be relevant for windows but can be applied to other OS with some tweaks.
+Put the hugo executable into the PATH environment variable so it accessible from everywhere.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://amerkt.xyz/about/</link>
       <pubDate>Sun, 26 Jan 2020 22:48:46 +0500</pubDate>

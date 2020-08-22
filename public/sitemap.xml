@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://amerkt.xyz/tags/blog/</loc>
+    <lastmod>2020-08-22T01:49:53+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amerkt.xyz/tags/diy/</loc>
+    <lastmod>2020-08-22T01:49:53+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amerkt.xyz/create-a-blog-using-hugo/</loc>
+    <lastmod>2020-08-22T01:49:53+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amerkt.xyz/tags/hugo/</loc>
+    <lastmod>2020-08-22T01:49:53+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amerkt.xyz/tags/</loc>
+    <lastmod>2020-08-22T01:49:53+05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amerkt.xyz/about/</loc>
     <lastmod>2020-08-21T02:56:34+05:00</lastmod>
   </url>
@@ -19,11 +44,6 @@
   
   <url>
     <loc>https://amerkt.xyz/quotes-by-carl-jung/</loc>
-    <lastmod>2020-08-21T02:56:34+05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amerkt.xyz/tags/</loc>
     <lastmod>2020-08-21T02:56:34+05:00</lastmod>
   </url>
   

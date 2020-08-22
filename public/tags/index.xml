@@ -6,10 +6,37 @@
     <description>Recent content in Tags on AmerKT | Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 00:29:41 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2020 01:49:53 +0500</lastBuildDate>
     
 	<atom:link href="https://amerkt.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://amerkt.xyz/tags/blog/</link>
+      <pubDate>Sat, 22 Aug 2020 01:49:53 +0500</pubDate>
+      
+      <guid>https://amerkt.xyz/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://amerkt.xyz/tags/diy/</link>
+      <pubDate>Sat, 22 Aug 2020 01:49:53 +0500</pubDate>
+      
+      <guid>https://amerkt.xyz/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://amerkt.xyz/tags/hugo/</link>
+      <pubDate>Sat, 22 Aug 2020 01:49:53 +0500</pubDate>
+      
+      <guid>https://amerkt.xyz/tags/hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>quotes</title>

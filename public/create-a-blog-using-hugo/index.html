@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.74.3" />
-  <link rel="canonical" href="https://amerkt.xyz/post/">
+  <link rel="canonical" href="https://amerkt.xyz/create-a-blog-using-hugo/">
 
   
 
@@ -34,7 +34,7 @@
 
   
   
-  <title>Blog | AmerKT | Personal Blog</title>
+  <title>How to create a blog using hugo | AmerKT | Personal Blog</title>
 </head>
 
   <body>
@@ -214,45 +214,169 @@
       <div class="main-and-footer">
         <div>
           
-<main id="main">
-  <h1>Blog</h1>
+  <main id="main">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      How to create a blog using hugo
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong>Publish date: </strong>Aug 22, 2020
+      
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong>Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://amerkt.xyz/tags/hugo/">hugo</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://amerkt.xyz/tags/blog/">blog</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://amerkt.xyz/tags/diy/">DIY</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-1---install-hugo">
+            Step 1 - Install Hugo
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-2---create-site-directory">
+            Step 2 - Create Site Directory
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-3---install-a-theme">
+            Step 3 - Install a theme
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-4---run-example-site">
+            Step 4 - Run Example site
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#step-5---customize-your-blog">
+            Step 5 - Customize your blog
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+
+    <p>I have recently created my first site using hugo, so I thought the first post should be the process of creating a site using hugo.</p>
+<h2 id="step-1---install-hugo">Step 1 - Install Hugo</h2>
+<p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the appropriate version for your OS and architecture.</p>
+<p><em><strong>Instructions here will be relevant for windows but can be applied to other OS with some tweaks.</strong></em></p>
+<p>Put the hugo executable into the PATH environment variable so it accessible from everywhere. Here is the link to put hugo binary in environment variable path. <a href="https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/">Add to the Path - Windows 10</a></p>
+<h2 id="step-2---create-site-directory">Step 2 - Create Site Directory</h2>
+<p>Although, You can create a site from scratch using hugo, I would recommend to use themes. After going through the step one, you have to create a site directory which contains your blog configs, layouts and content.</p>
+<p>Go to your preferred directory i-e C,D, Documents, Desktop etc.</p>
+<p>Open the command prompt there.</p>
+<p>First run this command.</p>
+<pre><code>D:\&gt;hugo version
+</code></pre>
+<p>If it prints a output like below with some version number, it means hugo is correctly configured in your environment otherwise you have to repeat step 1.</p>
+<pre><code>Hugo Static Site Generator v0.74.3-DA0437B4 windows/amd64 BuildDate: 2020-07-23T16:23:30Z
+</code></pre>
+<p>Now run this command, it will configure with the barebones layout, content and configs to get you started.</p>
+<pre><code>D:\&gt;hugo new site myblog.com
+</code></pre>
+<p>Navigate to myblog.com using the change directory command.</p>
+<pre><code>D:\&gt;cd myblog.com
+</code></pre>
+<h2 id="step-3---install-a-theme">Step 3 - Install a theme</h2>
+<p>Now you can use these configs to customize your blog, but its better you should start with a theme.</p>
+<p>You have to install the relevant theme available on hugo platform. Here is the link to explore hugo themes. <a href="https://themes.gohugo.io/">Hugo Themes</a></p>
+<p>For this site, I have used cupper theme. <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper Theme</a></p>
+<p><em><strong>Please note that commands below are relevant for downloading the cupper theme,the installation process is different which is available on their relevant github page.</strong></em></p>
+<p>For cupper theme, here are the commands which will download cupper theme.</p>
+<pre><code>D:\myblog.com&gt;git init
+D:\myblog.com&gt;git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme
+D:\myblog.com&gt;git submodule update --remote --merge
+</code></pre>
+<h2 id="step-4---run-example-site">Step 4 - Run Example site</h2>
+<p>Now you will find your theme inside the themes directory, and most of the themes contains example site so first we are going to run it.</p>
+<pre><code>D:\myblog.com\themes\cupper-hugo-theme\exampleSite&gt;hugo server --themesDir ../..
+</code></pre>
+<p>The commands is also available cupper theme github page.</p>
+<p>This will run the example site. Now you can copy relevant files from cupper-theme folder to your blog main directory.</p>
+<h2 id="step-5---customize-your-blog">Step 5 - Customize your blog</h2>
+<p>If you are able to access example site successfully, then you can copy the config file and replace it with your main config file and run the hugo server again.</p>
+<p><em><strong>-D option will run in draft mode which will also include the content in draft</strong></em></p>
+<pre><code>D:\myblog.com&gt;hugo server -D
+</code></pre>
+<p>Copying the config file from exampleSite folder will run your main site as it contains main config and header content required for a site.</p>
+<p>Now you have to modify the configs and copy the relevant content files from themes folder to your main blog folder to fix broken links.</p>
+
+  </main>
+  <div id="disqus-container">
   
-  <ul class="patterns-list" id="list">
-    
-    <li>
-      <h2>
-        <a href="https://amerkt.xyz/create-a-blog-using-hugo/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          How to create a blog using hugo
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://amerkt.xyz/quotes-by-carl-jung/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          Quotes by Carl Jung
-        </a>
-      </h2>
-    </li>
-    
-  </ul>
-</main>
+</div>
+
 
           <footer role="contentinfo">
   <div>
